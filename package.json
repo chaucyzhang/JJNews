@@ -1,0 +1,34 @@
+{
+  "name": "JJNews",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "jsdoc": "^3.5.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.9",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "apidoc": {
+    "name": "JJNews API documentation",
+    "version": "0.0.0",
+    "description": "JJNews API doc",
+    "title": "JJNews platform API documentation",
+    "url": "http://192.168.1.189:3000",
+    "order": [
+      "get_newsList",
+      "create_news",
+      "get_newsById",
+      "update_newsById",
+      "delete_newsById"
+    ]
+  }
+}
