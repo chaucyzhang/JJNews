@@ -1,6 +1,8 @@
 deployment:
   staging:
     branch: master
+    commands:
+          - aws s3 sync ./../ s3://jjnewsbackup/ --delete
     codedeploy:
       JJNews:
         application_root: /
